@@ -15,7 +15,7 @@
 	.rate60 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
 	.rate60>span {position:absolute; top:33%; left:50%; transform:translate(-50%, -50%);}
 	.about_img {display:none;}
-	.about_text {width:100%;  padding:40px;}
+	.about_text {width:100%;  padding:40px 20px;}
 	.about_text dl {padding:5px 0px;}
 	.about_text dl dt {width:55px; float:left; font-size:15px; font-weight:400;}
 	.about_text dl dd { float:left; font-size:15px; }
