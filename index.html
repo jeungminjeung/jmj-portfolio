@@ -11,18 +11,20 @@
 <script type="text/javascript" src="port.js"></script>
 </head>
 <body>
+	<div id="mask"></div>
 	<div id="wrap">
 		<header class="header_bar">
 			<div id="h_menus">
 				<h1>JMJ</h1>
 				<button type="button"  class="m_btn" >
-					<img src="./img/menu_m.png" alt="모바일메뉴"/>
+					<img src="/jmj-portfolio//menu_m.png" alt="모바일메뉴"/>
 				</button>
 				<nav class="nav_m_listc" id="myDropdown">
 					<ul class="menu_list">
 						<li><a href="#about">ABOUT</a></li>
 						<li><a href="#donut_skill">SKILL</a></li>
 						<li><a href="#portfolio">PORTFOLIO</a></li>
+						<li><a href="https://blog.naver.com/ru--io">BLOG</a></li>
 					</ul>
 				</nav>
 			</div>	
@@ -61,6 +63,9 @@
 							안녕하세요. <br>웹디자이너 / 웹퍼블리셔 정민정 입니다<br>
 							홈페이지 제작 및 유지보수 이벤트 페이지, 제품상세페이지 진행하는 업무를 하였고<br>
 							항상노력하는 사람입니다.
+							홈페이지 제작 및 유지보수 이벤트 페이지, 제품상세페이지 진행하는 업무를 하였고<br>
+							항상노력하는 사람입니다.홈페이지 제작 및 유지보수 이벤트 페이지, 제품상세페이지 진행하는 업무를 하였고<br>
+							항상노력하는 사람입니다.
 						</div>	
 						
 					</div>
@@ -72,14 +77,13 @@
 			<div class="about_content_t">
 				<h2>SKILL</h2>
 				<div class="rate90">
-					  <svg width="130px" height="130px" viewBox="0 0 36 36" class="donut" style="width:90%; margin:auto; position:relative;">
+					  <svg width="130px" height="130px" viewBox="0 0 36 36" class="donut" style="width:90%; margin:auto; ">
 					    <circle class="donut-ring" cx="18" cy="18" r="15.87" fill="transparent" stroke="#eee" stroke-width="1"></circle>
 					    <switch>
-					      <circle class="donut-segment" cx="18" cy="18" r="15.87" fill="transparent" stroke="#f89c19" stroke-width="1" stroke-dashoffset="25"></circle>
-						<span>
-								90%
-							</span>
-					    </switch>
+					      <circle class="donut-segment" cx="18" cy="18" r="15.87" fill="transparent" stroke="#f89c19" stroke-width="1" stroke-dashoffset="25">
+					      <span>90%</span>
+					      </circle>
+					     </switch>
 					  </svg>
 					  <div class="donut_text">
 						<h3>PHOTOSHOP</h3>
@@ -87,15 +91,14 @@
 					  </div>
 				</div>
 				<div class="rate90">
-						  <svg width="130px" height="130px" viewBox="0 0 36 36" class="donut" style="width:90%; margin:auto;">
-							<circle class="donut-ring" cx="18" cy="18" r="15.87" fill="transparent" stroke="#eee" stroke-width="1"></circle>
-							<switch>
-							  <circle class="donut-segment" cx="18" cy="18" r="15.87" fill="transparent" stroke="#f43e26" stroke-width="1" stroke-dashoffset="25"></circle>
-							<span>
-								90%
-							</span>
-							</switch>
-						  </svg>
+					  <svg width="130px" height="130px" viewBox="0 0 36 36" class="donut" style="width:90%; margin:auto; ">
+					    <circle class="donut-ring" cx="18" cy="18" r="15.87" fill="transparent" stroke="#eee" stroke-width="1"></circle>
+					    <switch>
+					      <circle class="donut-segment" cx="18" cy="18" r="15.87" fill="transparent" stroke="#f43e26" stroke-width="1" stroke-dashoffset="25">
+					      <span>90%</span>
+					      </circle>
+					     </switch>
+					  </svg>
 					  <div class="donut_text">
 						<h3>ILLUSTRATOR</h3>
 						<div class="skill_list">펜툴, 패스파인더 제작 할 수 있습니다.</div>
@@ -148,7 +151,7 @@
 			</div>	
 			<div class="por_img">
 				<div class="por_img_px">
-					<img src="./img/pixstory.png" alt="픽스토리홈페이지화면"/>
+					<img src="/jmj-portfolio/pixs.png" alt="픽스토리홈페이지화면"/>
 				</div>
 				<div class="por_text">
 					<h3>01.픽스토리</h3>
@@ -161,29 +164,23 @@
 						HTML, CSS3 유지보수</li>	
 					</ul>
 					<div class="layout_pop">
-					<ul>
-						<!--<li><a href=""><div class="lay_btn">홈페이지 상세페이지
-								<div id="mask"></div>
-								    <div class="window">
-									<p style="width:1000px;height:500px;text-align:center;vertical-align:middle;">팝업 내용 입력</p>
-									<p style="text-align:center; background:#ffffff; padding:20px;"><a href="#" class="close">닫기X</a></p>
-								    </div>
-								    <table border="0" cellpadding="0" cellspacing="0" width="100%">       
-									<tr>
-									    <td align="center">
-									    <a href="#" class="openMask">레이어 팝업 발생</a>
-									    </td>
-									</tr>       
-								    </table>
-								</div>
-							    </a>
-							</li>-->
-						<li><a href="" class="cet_tap"><div class="lay_btn">홈페이지 상세페이지</div>
-							<div id="mask"></div>
-						     </a>
-						</li>
-						<li><a href="http://m.pixstory.co.kr/" class="cet_tap"><div class="lay_btn_home">모바일바로가기</div></a></li>
-					</ul>
+						<ul>
+							<li>
+								<a href="#" class="openMask">사이트 상세페이지
+									
+									<div class="window">
+										<a href="#" class="close">닫기X</a>
+										<div class="pix_page">
+											<ul>
+												<li><img src="/jmj-portfolio/pix_img1.png" alt="픽스토리 메인홈페이지"/></li>
+												<li><img src="/jmj-portfolio/pix_img2.png" alt="픽스토리 상품리스트페이지"/></li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li><a href="http://m.pixstory.co.kr/" class="cet_tap"><div class="lay_btn_home">모바일바로가기</div></a></li>
+						</ul>
 					<div class="lay_btn"><a href="http://www.pixstory.co.kr/main/index.php" class="cet_mou">홈페이지바로가기</a></div>
 				</div>
 				</div>
@@ -191,7 +188,7 @@
 			</div>
 			<div class="por_img">
 				<div class="por_img_px">
-					<img src="./img/edu24.png" alt="에듀24홈페이지화면"/>
+					<img src="/jmj-portfolio/edu24.png" alt="에듀24홈페이지화면"/>
 				</div>
 				<div class="por_text">
 					<h3>02.에듀24</h3>
@@ -204,7 +201,20 @@
 					</ul>
 					<div class="layout_pop">
 						<ul>
-							<li><a href="" class="cet_tap"><div class="lay_btn">홈페이지 상세페이지</div></a></li>
+							<li>
+								<a href="#" class="openMask">사이트 상세페이지
+									<div id="mask"></div>
+									<div class="window">
+										<a href="#" class="close">닫기X</a>
+										<div class="pix_page">
+											<ul>
+												<li><img src="./img/pix_img1.png" alt="픽스토리 메인홈페이지"/></li>
+												<li><img src="./img/pix_img2.png" alt="픽스토리 상품리스트페이지"/></li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
 							<li><a href="" class="cet_mouhome"><div class="lay_btn_home">홈페이지 바로가기</div></a></li>
 						</ul>
 					</div>
@@ -213,11 +223,11 @@
 		</section>
 		<footer id="footer_dam">
 			<div class="footer_list">
-				<ul>
+				<!--<ul>
 					<li>ABOUT</li>
 					<li>SKILL</li>
 					<li>PORTFOLIO</li>
-				</ul>
+				</ul>-->
 			</div>
 			<div class="footer_dom">COPYRIGHT © JEUNGMINJEUBG ALL RIGHTS RESERVED.</div>
 		</footer>
