@@ -1,0 +1,53 @@
+@media (max-width:980px) {
+	header .m_btn {display:block; border:none; position:absolute; top:8px; right:8px; overflow:hidden; width:50px; height:40px; background:transparent; outline:none; z-index:999;}
+	
+	.nav_m_listc { display:none; background:#333; width:100%; height:130px; position:relative; top:-5px; }
+	.menu_list li {display:block; clear:both; padding:5px; text-align:center; width:95%; margin:auto;}
+	.menu_list li a:hover {color:#af3232;}
+	#main_miop {position:relative; top:260px; color:#fff; width:100%; margin:auto; font-size:1.5em;}
+	#donut {width:80%; margin:auto;}
+	.rate90 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
+	.rate90>span {position:absolute; top:33%; left:50%; transform:translate(-50%, -50%);}
+	.rate80 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
+	.rate80>span {position:absolute; top:33%; left:50%; transform:translate(-50%, -50%);}
+	/*.rate80 {width:40%; margin:40px 10px; float:left; height:270px;}
+	.rate80>span {position:relative; top:-85px; left:5px;}*/
+	.rate60 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
+	.rate60>span {position:absolute; top:33%; left:50%; transform:translate(-50%, -50%);}
+	.about_img {display:none;}
+	.about_text {width:100%;  padding:40px;}
+	.about_text dl {padding:5px 0px;}
+	.about_text dl dt {width:55px; float:left; font-size:15px; font-weight:400;}
+	.about_text dl dd { float:left; font-size:15px; }
+	.about_hi {font-size:15px; width:90%;}
+	#portfolio .por_img .por_img_px >img {width:100%; margin:auto; padding:40px 0px;}
+	
+	}
+	
+@media (max-width:1024px) {
+	.rate90 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
+	.rate90>span {position:absolute; top:24%; left:53%; transform:translate(-50%, -50%);}
+	.rate80 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
+	.rate80>span {position:absolute; top:24%; left:53%; transform:translate(-50%, -50%);}
+	/*.rate80 {width:40%; margin:40px 10px; float:left; height:270px;}
+	.rate80>span {position:relative; top:-85px; left:5px;}*/
+	.rate60 {width:43%; margin:20px 10px ; float:left; height:270px;  position:relative;}
+	.rate60>span {position:absolute; top:24%; left:53%; transform:translate(-50%, -50%);}
+	.por_img_px {width:90%; padding:5px; margin:0px 70px;}
+	#portfolio .por_img .por_img_px >img {width:100%; margin:auto; padding:20px 0px 0px;}
+	.por_text {width:100%; padding:20px 0px;}
+	}	
+	
+	
+	
+@media (max-width:767px) {
+	.por_img_px {width:90%; padding:5px; margin:0px 20px;}
+	#portfolio .por_img .por_img_px >img {width:100%; margin:auto; padding:20px 0px 0px;}
+	.por_text {width:100%; padding:20px 0px;}
+	}
+	
+	
+	
+@media (min-width:981px) {
+	#myDropdown  {display:block !important;}
+}	
