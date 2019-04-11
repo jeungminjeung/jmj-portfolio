@@ -49,6 +49,7 @@ button {cursor:pointer;}
 
 #donut_skill {width:100%; margin:auto; clear:both; padding-top:40px;}
 .donut_ment {display: inline-block;padding: 50px;}
+.dount_rate {width:80%; margin:auto;}
 .donut-segment {stroke-dasharray: 0 100; -webkit-transition: 1s cubic-bezier(0.71, 0.17, 0.39, 1);}
 .rate90 .donut-segment  {stroke-dasharray: 90 10; }
 .rate90 {width:25%; float:left; margin:20px 30px; position:relative;}
