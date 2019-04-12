@@ -33,7 +33,7 @@ $(document).ready(function(){
 });
 
 //레이어 팝업
-function wrapWindowByMask(){
+/*function wrapWindowByMask(){
  
        
         var maskHeight = $(document).height();  
@@ -70,7 +70,7 @@ function wrapWindowByMask(){
            
         });      
  
-    });
+    });*/
 
 
 
