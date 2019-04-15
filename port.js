@@ -28,42 +28,48 @@ window.onclick = function(event) {
 $(document).ready(function(){
 	$(".nav_m_listc").hide();
 	$(".m_btn").click(function(){
-		$(".nav_m_listc").slideToggle(500);
+		$(".nav_m_listc").slideToggle(800);
 	});
 });
 
-//레이어 팝업
-/*function wrapWindowByMask(){
+/*
+function wrapWindowByMask(){
  
-       
+        //화면의 높이와 너비를 구한다.
         var maskHeight = $(document).height();  
         var maskWidth = $(window).width();  
-
+  
+        //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채운다.
+        $("#mask").css({"width":maskWidth,"height":maskHeight});  
         $("#mask").css({"width":maskWidth,"height":maskHeight});  
 	
-       
+        //애니메이션 효과 - 일단 0초동안 까맣게 됐다가 60% 불투명도로 간다.
+ 
         $("#mask").fadeIn(0);      
         $("#mask").fadeTo("slow",0.6);    
         
+ 
+        //윈도우 같은 거 띄운다.
         $(".window").show();
  
     }
  
     $(document).ready(function(){
-   
+        //검은 막 띄우기
         $(".openMask").click(function(e){
-            e.preventDefault();
+	            e.preventDefault();
             wrapWindowByMask();
 	   
         });
  
-   
+        //닫기 버튼을 눌렀을 때
         $(".window .close").click(function (e) {  
+            //링크 기본동작은 작동하지 않도록 한다.
             e.preventDefault();  
             $("#mask, .window").hide();  
         });       
  
-      
+        //검은 막을 눌렀을 때
         $("#mask").click(function () {  
             $(this).hide();  
             $(".window").hide();  
@@ -74,13 +80,22 @@ $(document).ready(function(){
 
 
 
+//$('html, body').css({'overflow': 'hidden', 'height': '100%'}); // 모달팝업 중 html,body의 scroll을 hidden시킴
+
+
+ $(document).ready(function(){
+      
+        $(".openMask").click(function(e){
+	           $('body').css({'overflow-y': 'hidden'});
+		   $(".close_btn").click(function(){
+			 $('body').css({'overflow-y': 'scroll'});
+		   });
+        });
+});
+//$('#element').on('scroll touchmove mousewheel', function(event) { // 터치무브와 마우스휠 스크롤 방지     
 	
 	
-	
-	
-	
-	
-	
+//$('html, body').css({'overflow': 'auto', 'height': '100%'}); //scroll hidden 해제 $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능
 	
 	
 	

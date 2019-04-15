@@ -72,7 +72,8 @@ button {cursor:pointer;}
 
 .close_btnaba {width:100%; height:50px; background:#000;}
 .close_btn {font-size:30px; width:50px; height:50px; float:right; color:#fff;}
-.pix_text {clear:both; width:40%; margin: 20px auto; font-size:15px; background:#555; color:#fff; line-height:38px; height:40px;}
+.pix_text {clear:both; width:40%; margin: 20px auto; font-size:15px; background:#555; line-height:38px;}
+.pix_text a { color:#fff;}
 .pix_page .divhome {float:left; width:46%; font-size:14px; margin:10px 19px; text-align:center; height:auto;}
 .edu24_page .divhome{float:left; width:46%; font-size:14px; margin:10px 19px; text-align:center; height:auto;}
 /*.lay_btn {background:#af3232; color:#fff; box-sizing:border-box; width:100%; padding:7px; height:35px;}*/
@@ -101,8 +102,8 @@ button {cursor:pointer;}
 #id01 {position:fixed; z-index:9999; background-color:rgba(0,0,0,0.4); display:none; left:0;  top:0; bottom:0; right:0; width:100%; } 
 #id02 {position:fixed; z-index:9999; background-color:rgba(0,0,0,0.4); display:none; left:0;  top:0; bottom:0; right:0; width:100%; } 
 /* 팝업으로 뜨는 윈도우 css  */ 
-.mask{position:absolute; left:25%; top:20%; width:50%; margin:auto; height:600px; background-color:#fff; z-index:10000;}
-.mask24{position:absolute; left:25%; top:20%; width:50%; margin:auto; height:600px; background-color:#fff; z-index:10000;}
+.mask{position:absolute; left:25%; top:20%; width:50%; margin:auto; height:auto; background-color:#fff; z-index:10000;}
+.mask24{position:absolute; left:25%; top:20%; width:50%; margin:auto; height:auto; background-color:#fff; z-index:10000;}
 
 
 
