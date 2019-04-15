@@ -1,4 +1,5 @@
 html,body,h1,h2,h3,h4,h5 {font-size:100%; margin:0; padding:0; word-spacing:-1px;}
+html {scroll-behavior: smooth;}
 body {font-family:'Noto Sans KR', sans-serif, 나눔고딕, 'NanumGothic','맑은고딕','Malgun Gothic'; }
 body {margin:auto;  position:relative;}
 ul {padding:0px;}
