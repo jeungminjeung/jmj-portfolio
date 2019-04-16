@@ -1,5 +1,5 @@
 @media (max-width:980px) {
-	header .m_btn {display:block; border:none; position:absolute; top:-4px; right:8px; overflow:hidden; width:50px; height:40px; background:transparent; outline:none; z-index:999;}
+	header .m_btn {display:block; border:none; position:absolute; top:-4px; right:15px; overflow:hidden; width:50px; height:40px; background:transparent; outline:none; z-index:999;}
 	.nav_m_listc { display:none; background:#333; width:100%; height:170px; position:relative; top:5px; }
 	.menu_list li {display:block; clear:both; padding:5px; text-align:center; width:95%; margin:auto;}
 	.menu_list li a:hover {color:#af3232;}
