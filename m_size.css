@@ -20,10 +20,6 @@
 	.about_text dl dd { float:left; font-size:15px; }
 	.about_hi {font-size:15px; width:90%;}
 	#portfolio .por_img .por_img_px >img {width:100%; margin:auto; padding:40px 0px;}
-	.pix_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-	.pix_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 24px 20px; float:left; width:46%;}
-	.edu24_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-	.edu24_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 24px 20px; float:left; width:46%;}
 	/* 레이어 팝업 */
 	#id01 {position:fixed; z-index:9999; background-color:rgba(0,0,0,0.4); display:none; left:0;  top:0; bottom:0; right:0; width:100%; } 
 	#id02 {position:fixed; z-index:9999; background-color:rgba(0,0,0,0.4); display:none; left:0;  top:0; bottom:0; right:0; width:100%; } 
@@ -59,10 +55,7 @@
 	.mask{position:absolute; left:5%; top:40%; width:90%; margin:auto; height:auto; background-color:#fff; z-index:10000;}
 	.mask24{position:absolute; left:5%; top:40%; width:90%; margin:auto; height:auto; background-color:#fff; z-index:10000;}
 	.pix_text {clear:both; width:50%; margin: 20px auto; font-size:15px; background:#555; line-height:38px;}
-	.pix_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-	.pix_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 7px 20px; float:left; width:46%;}
-	.edu24_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-	.edu24_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 7px 20px; float:left; width:46%;}
+	
 	}
 	
 	
