@@ -37,7 +37,7 @@
 	.rate80>span {position:relative; top:-85px; left:5px;}*/
 	.rate60 {width:40%; margin:20px 10px ; float:left; height:270px;  position:relative;}
 	.rate60>span {position:absolute; top:24%; left:53%; transform:translate(-50%, -50%);}
-	.por_img_px {width:90%; padding:5px; margin:0px 70px;}
+	.por_img_px {width:90%; padding:5px; margin:0px 35px;}
 	#portfolio .por_img .por_img_px >img {width:100%; margin:auto; padding:20px 0px 0px;}
 	.por_text {width:100%; padding:20px 0px;}
 	.mask{position:absolute; left:5%; top:40%; width:90%; margin:auto; height:auto; background-color:#fff; z-index:10000;}
