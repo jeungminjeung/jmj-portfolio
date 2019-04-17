@@ -68,10 +68,10 @@ button {cursor:pointer;}
 .por_text h3 {font-size:1.5em; padding:37px 10px 5px;  font-weight:500;}
 .por_text>ul li {padding:10px; font-size:15px; font-weight:500;}
 .layout_pop {width:100%; margin:auto;}
-.pix_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-.pix_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 28px 20px; float:left; width:46%;}
-.edu24_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-.edu24_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 28px 20px; float:left; width:46%;}
+.pix_page>ul li {float:left; width:45%; font-size:14px; margin:4% 2.5%; text-align:center; height:auto; }
+.pix_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out;}
+.edu24_page>ul li {float:left; width:45%; font-size:14px; margin:4% 2.5%; text-align:center; height:auto;}
+.edu24_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out;}
 
 .close_btnaba {width:100%; height:50px; background:#000;}
 .close_btn {font-size:30px; width:50px; height:50px; float:right; color:#fff;}
