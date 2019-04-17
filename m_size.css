@@ -60,9 +60,9 @@
 	.mask24{position:absolute; left:5%; top:40%; width:90%; margin:auto; height:auto; background-color:#fff; z-index:10000;}
 	.pix_text {clear:both; width:50%; margin: 20px auto; font-size:15px; background:#555; line-height:38px;}
 	.pix_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-	.pix_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 14px 20px; float:left; width:46%;}
+	.pix_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 7px 20px; float:left; width:46%;}
 	.edu24_page>ul li {float:left; width:46%; font-size:14px; margin:10px 5px; text-align:center; height:auto; }
-	.edu24_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 14px 20px; float:left; width:46%;}
+	.edu24_page>ul li img {box-shadow: 1px 1px 5px #999; transition: .1125s ease-out; margin:15px 7px 20px; float:left; width:46%;}
 	}
 	
 	
