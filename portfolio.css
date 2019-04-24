@@ -9,10 +9,13 @@ button {cursor:pointer;}
 html {scroll-behavior: smooth;}
 
 @keyframes dscroll {
-	0% {opacity:1;}
-	100%{opacity:0;}
+	0%   {opacity: 1.0; top:15px;}
+    100% {opacity: 1.0; top:0px;}
 }
-
+@-webkit-keyframes dscroll {
+   0%   {opacity: 1.0; top:15px;}
+    100% {opacity: 1.0; top:0px;}
+}
 
 
 #wrap {width:100%; margin:0;  position:relative; letter-spacing:-0.03em;}
