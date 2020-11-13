@@ -1,0 +1,459 @@
+
+@media (min-width: 1201px) and (max-width: 1669px){
+   
+}
+@media (min-width: 1025px) and (max-width: 1669px) {
+    .full_title span {
+    	text-align: center;
+    	top: 55%;
+    	left: 0px;
+    	right: 0px; 
+     	transform: none;
+    }
+   .center_bg {
+	    top: -23%;
+	    left: 0px;
+	    transform: none;
+	    right: 0px;
+	    margin: auto;
+	   background-position: center;
+	}
+	.full_name span {
+	    display: block;
+	    position: absolute;
+	    left: 0px;
+	    right: 0px;
+	    font-size: 3em;
+	    color: #AE8A53;
+	    text-align: center;
+	    transform: none;
+	    top:82%;
+	}
+	.page_title {
+	    font-size: 1.7em;
+	    left: 7.5%;
+	}
+	
+	.mj_img {
+		width: 40%;
+	    text-align: center;
+	    margin: 50px auto;
+	}
+	.mj_text {
+    	margin-top: 39px;
+    	width:48%;
+	}
+	.mj_text span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.profile_text {
+		font-size: 16px;
+	}
+	.mj_width {
+	    width: 40%;
+	}
+	
+	.markup_list p {
+	    position: absolute;
+	    bottom: -32px;
+	    left: 7px;
+	    font-size: 13px;
+	}
+	.profile_text .pro_img {
+		width:14%;
+	}
+	.profile_text .pro_img img {
+		width: 100%;
+	}
+	
+	.zt-skill-bar {
+		margin-left: 20px;
+	}
+	.mj_width div span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.btn_img {
+	    width: 100%;
+	}
+	.btn_img img{
+		width: 100%;
+	}
+	.works_list {
+	    width: 63%;
+	    padding-top: 20%;
+	}
+	.layout_pop li {
+		margin:10px 5px;
+	}
+	.layout_pops {
+		position: absolute;
+    	top: 23%;
+	}
+
+	.mask {
+	    position: absolute;
+	    left: 5%;
+	    top: 5%;
+	    width: 90%;
+	}
+	.item_page{
+	    margin: 20px auto;
+	    width:39%;
+	} 
+	.item_page img {
+		width: 100%;
+	}
+	.item_page_t{
+		margin-left: 20px;
+	}
+	.mj_pri {
+	    width: 70%;
+	    margin: auto;
+	    padding-top: 10%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .full_title span {
+    	text-align: center;
+    	top: 55%;
+    	left: 0px;
+    	right: 0px; 
+     	transform: none;
+    }
+   .center_bg {
+	    top: -20%;
+	    left: 0px;
+	    transform: none;
+	    right: 0px;
+	    margin: auto;
+	    background-position: center;
+	}
+	.full_name span {
+	    display: block;
+	    position: absolute;
+	    left: 0px;
+	    right: 0px;
+	    font-size: 3em;
+	    color: #AE8A53;
+	    text-align: center;
+	    transform: none;
+	    top:82%;
+	}
+	.page_title {
+	    font-size: 1.7em;
+	    left: 7.5%;
+	}
+	
+	.mj_img {
+		width: 45%;
+	    text-align: center;
+	    margin: 50px auto;
+	}
+	.mj_text {
+	    margin-left: 5%;
+    	margin-top: 39px;
+    	width: 50%;
+	}
+	.mj_text span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.profile_text {
+		font-size: 16px;
+	}
+	
+	.markup_list p {
+	    position: absolute;
+	    bottom: -32px;
+	    left: 7px;
+	    font-size: 13px;
+	}
+	.profile_text .pro_img {
+		width:14%;
+	}
+	.profile_text .pro_img img {
+		width: 100%;
+	}
+	.mj_width {
+	    display: block;
+	    width: 60%;
+	    margin-left: 0px;
+	}
+	.zt-skill-bar {
+		margin-left: 20px;
+	}
+	.mj_width div span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.btn_img {
+	    width: 100%;
+	}
+	.btn_img img{
+		width: 100%;
+	}
+	.layout_pop li {
+	    width: 30%;
+	}
+	.works_list {
+	    width: 80%;
+	    padding-top: 25%;
+	}
+	.layout_pop li {
+		margin:10px 5px;
+	}
+	.layout_pops {
+		position: absolute;
+    	top: 23%;
+	}
+
+	.mask {
+	    position: absolute;
+	    left: 5%;
+	    top: 5%;
+	    width: 90%;
+	}
+	.item_page{
+	    margin: 20px auto;
+	    width:39%;
+	} 
+	.item_page img {
+		width: 100%;
+	}
+	.item_page_t{
+		margin-left: 20px;
+	}
+	.mj_pri {
+	    width: 70%;
+	    margin: auto;
+	    padding-top: 10%;
+	    padding-left: 30%;
+	}
+}
+
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+   .full_title span {
+    	text-align: center;
+    	top: 55%;
+    	left: 0px;
+    	right: 0px; 
+     	transform: none;
+    }
+   .center_bg {
+	    top: -16%;
+	    left: 0px;
+	    transform: none;
+	    right: 0px;
+	    margin: auto;
+	    background-position: center;
+	}
+	.full_name span {
+	    display: block;
+	    position: absolute;
+	    left: 0px;
+	    right: 0px;
+	    font-size: 3em;
+	    color: #AE8A53;
+	    text-align: center;
+	    transform: none;
+	    top:82%;
+	}
+	.page_title {
+	    font-size: 1.7em;
+	    left: 7.5%;
+	}
+	.mj_img, .mj_text {
+		float: none;
+	}
+	.mj_img {
+		width: 80%;
+	    text-align: center;
+	    margin: 50px auto;
+	}
+	.mj_text {
+	    margin-left: 0px; 
+	    margin-top: 20px;
+	}
+	.mj_text span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.profile_text {
+		font-size: 16px;
+	}
+	.myself, .full_img {
+		display: none;
+	}
+	.markup_list p {
+	    position: absolute;
+	    bottom: -32px;
+	    left: 7px;
+	    font-size: 13px;
+	}
+	.profile_text .pro_img {
+		width:14%;
+	}
+	.profile_text .pro_img img {
+		width: 100%;
+	}
+	.mj_width {
+		display: block;
+		width: 100%;
+	}
+	.zt-skill-bar {
+		margin-left: 20px;
+	}
+	.mj_width div span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.btn_img {
+	    width: 100%;
+	}
+	.btn_img img{
+		width: 100%;
+	}
+	.layout_pop li {
+	    width: 30%;
+	}
+	.works_list {
+	    width:80%;
+	    padding-top: 25%;
+	}
+	.layout_pop li {
+		margin:10px 5px;
+	}
+	.layout_pops {
+		position: absolute;
+    	top: 23%;
+	}
+
+	.mask {
+	    position: absolute;
+	    left: 5%;
+	    top: 5%;
+	    width: 90%;
+	}
+	.item_page{
+		float: none;
+	    margin: auto;
+	    margin-top: 10px;
+	    width:39%;
+	} 
+	.item_page img, .item_page_t {
+		width: 100%;
+	}
+}
+
+@media (min-width: 327px) and (max-width: 479px) {
+    .full_title span {
+    	text-align: center;
+    	top: 55%;
+    	left: 0%; 
+     	transform: none;
+    }
+    .center_bg {
+	    top: 20%;
+	    left: 5%;
+	     transform: none; 
+	}
+	.full_name span {
+	    display: block;
+	    position: absolute;
+	    left: 0px;
+	    right: 0px;
+	    font-size: 3em;
+	    color: #AE8A53;
+	    text-align: center;
+	    transform: none;
+	    top:82%;
+	}
+	.page_title {
+	    font-size: 1.7em;
+	    left: 7.5%;
+	}
+	.mj_img, .mj_text {
+		float: none;
+	}
+	.mj_img {
+		margin-top: 50px;
+	}
+	.mj_text {
+	    margin-left: 0px; 
+	    margin-top: 20px;
+	}
+	.profile_text {
+		font-size: 14px;
+	}
+	.myself, .full_img {
+		display: none;
+	}
+	.markup_list p {
+	    position: absolute;
+	    bottom: -32px;
+	    left: 7px;
+	    font-size: 12px;
+	}
+	.profile_text .pro_img {
+		width:14%;
+	}
+	.profile_text .pro_img img {
+		width: 100%;
+	}
+	.mj_width {
+		display: block;
+		width: 100%;
+	}
+	.zt-skill-bar {
+		margin-left: 20px;
+	}
+	.mj_width div span {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.btn_img {
+	    width: 100%;
+	}
+	.btn_img img{
+		width: 100%;
+	}
+	.layout_pop li {
+	    width: 45%;
+	}
+	.works_list {
+	    width: 80%;
+	    padding-top: 25%;
+	}
+	.layout_pop li {
+		margin:10px 5px;
+	}
+	.layout_pops {
+		position: absolute;
+    	top: 23%;
+	}
+
+	.mask {
+	    position: absolute;
+	    left: 5%;
+	    top: 5%;
+	    width: 90%;
+	}
+	.item_page{
+		float: none;
+	    margin: auto;
+	    margin-top: 10px;
+	    width:39%;
+	} 
+	.item_page img, .item_page_t {
+		width: 100%;
+	}
+
+}
+
+
