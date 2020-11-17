@@ -481,7 +481,9 @@ ul, li{
   font-size: 18px;
   color: #555;
 }
-
+.menu li a {
+  color: #555;
+}
 .mj_img img {
     width: 100%;
 }
